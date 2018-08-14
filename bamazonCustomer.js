@@ -114,7 +114,7 @@ function shopMore() {
             
         }
     ]).then(function (input) {
-        if(input = true ){
+        if(input === "Yes" ){
             console.log("Great! Shop more!");
             displayInventory();
         }else{
