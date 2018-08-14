@@ -21,9 +21,7 @@ VALUES ('soap', 'hygiene', 5.00, 100),
 ('make up', 'hygiene', 20.00 ,25),
 ('shoes', 'footwear', 60.00 ,60),
 ('dress','clothing', 20.00 ,45),
+('socks','clothing', 3.00 ,150),
 ('sunglasses','eye wear', 10.50 , 400);
-
-DELETE FROM `products` WHERE `item_id` = 1;
-
 
 SELECT * FROM products;
